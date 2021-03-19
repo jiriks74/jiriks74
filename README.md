@@ -4,5 +4,5 @@
 - My programming language is now C#, but I know a bit C, Python, HTML, CSS and SQL too.
 
 ### Here are some of my stats
-<img src="https://github-readme-stats.vercel.app/api?username=jiriks74&theme=tokyonight"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jiriks74&hide=html&layout=compact&theme=tokyonight"/>
+<img src="https://github-readme-stats-jiriks74.vercel.app/api?username=jiriks74&theme=tokyonight"/>
+<img src="https://github-readme-stats-jiriks74.vercel.app/api/top-langs/?username=jiriks74&hide=html&layout=compact&theme=tokyonight"/>
