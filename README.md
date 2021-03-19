@@ -6,5 +6,3 @@
 ### Here are some of my stats
 <img src="https://github-readme-stats-jiriks74.vercel.app/api?username=jiriks74&theme=tokyonight"/>
 <img src="https://github-readme-stats-jiriks74.vercel.app/api/top-langs/?username=jiriks74&hide=html&layout=compact&theme=tokyonight"/>
-
-[![Readme Card](https://github-readme-stats-jiriks74.vercel.app/api/pin/?username=jiriks74&repo=SchoolLessons&theme=tokyonight)](https://github.com/jiriks74/jiriks74)
