@@ -1,4 +1,4 @@
-[![Readme Card](https://github-readme-stats-jiriks74.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-readme-stats-jiriks74.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/jiriks74/jiriks74)
 
 ### Hi there 👋
 - I'm Jiří Štefka, 19 yo programmer, still in his beginings
