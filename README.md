@@ -1,3 +1,5 @@
+[![Readme Card](https://github-readme-stats-jiriks74.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
+
 ### Hi there 👋
 - I'm Jiří Štefka, 19 yo programmer, still in his beginings
 - I live in Czechia the so-called "heart of Europe"
