@@ -1,7 +1,7 @@
 ### Hi there 👋
 - I'm Jiří Štefka, 19 yo programmer, still in his beginnings
 - I live in Czechia the so-called "heart of Europe"
-- My programming languages are now Python, C# and Cpp, but I know some C, SQL, a bit of HTML and CSS.
+- My programming languages are now Python, C# and C++, but I know some C, SQL, a bit of HTML and CSS.
 
 ### Here are some of my stats
 <img src="https://github-readme-stats-jiriks74.vercel.app/api?username=jiriks74&theme=tokyonight"/>
