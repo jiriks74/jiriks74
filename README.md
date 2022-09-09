@@ -1,5 +1,5 @@
 ### Hi there 👋
-- I'm Jiří Štefka, 19 yo programmer, still in his beginnings
+- I'm Jiří Štefka, 20 yo programmer, still in his beginnings
 - I live in Czechia the so-called "heart of Europe"
 - My programming languages are now Python, C# and C++, but I know some C, SQL, a bit of HTML and CSS.
 
