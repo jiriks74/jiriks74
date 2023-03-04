@@ -16,7 +16,7 @@
 
 ## 🌐 Check out my website (and blog): [stefka.eu](https://stefka.eu)
 
-## 📈 Stats 
+## 📈 Some stats 
 
 ![Github Stats](https://github-readme-stats-jiriks74.vercel.app/api?username=jiriks74&theme=tokyonight)
 ![Top Languages](https://github-readme-stats-jiriks74.vercel.app/api/top-langs/?username=jiriks74&hide=html&layout=compact&theme=tokyonight)
