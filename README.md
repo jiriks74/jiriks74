@@ -2,7 +2,7 @@
 
 📚 I'm a student at FIT VUT in Brno, Czechia 🇨🇿 
 
-## 💻 I enjoy working with:
+## 💻 I enjoy working with
 
 - C
 - Python 🐍
