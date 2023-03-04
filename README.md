@@ -8,7 +8,7 @@
 - Python 🐍
 - C# 
 
-### 🔍 Languages to be Improved
+### 🔍 Languages to be improved
 
 - C++
 - SQL
