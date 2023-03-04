@@ -1,5 +1,3 @@
-1
-
 # Hi there, I'm Jiří Štefka 👋
 
 📚 I'm a student at FIT VUT in Brno, Czechia 🇨🇿 
