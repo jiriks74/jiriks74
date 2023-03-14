@@ -39,7 +39,7 @@
 - Config for Neovim: VSCode-like functionality in the terminal, no RAM or CPU overhead!
 - 🌟 Based on [AstroNvim](https://astronvim.github.io)
 - 🔌 Plugins for LaTeX, Markdown preview, PlantUML, colorful comments, debugger, PlatformIO, autosave, and more.
-- 💻 Works anywhere you can install Neovim and Lua, starts up quickly in 25ms, works great over SSH!
+- 💻 Works anywhere you can install Neovim and Lua and works great over SSH!
 - 🚀 Starts quickly in just about 25ms!
 
 
