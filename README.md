@@ -14,6 +14,7 @@
 - SQL
 - HTML and CSS
 
+## :gear: Checkout my [Gitea instance](https://gitea.stefka.eu/jiriks74) where I host my personal projects
 ## 🌐 Check out my website (and blog): [stefka.eu](https://stefka.eu)
 
 ## 📈 Some stats 
