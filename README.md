@@ -1,26 +1,9 @@
+<img src="./github-metrics.svg" alt="Metrics" width="100%">
+
 # Hi there, I'm Jiří Štefka 👋
-
-📚 I'm a student at FIT VUT in Brno, Czechia 🇨🇿 
-
-## 💻 I enjoy working with
-
-- C
-- Python 🐍
-- C# 
-
-### 🔍 Languages to be improved
-
-- C++
-- SQL
-- HTML and CSS
 
 ## :gear: Checkout my [Gitea instance](https://gitea.stefka.eu/jiriks74) where I host my personal projects
 ## 🌐 Check out my website (and blog): [stefka.eu](https://stefka.eu)
-
-## 📈 Some stats 
-
-![Github Stats](https://github-readme-stats-jiriks74.vercel.app/api?username=jiriks74&theme=tokyonight)
-![Top Languages](https://github-readme-stats-jiriks74.vercel.app/api/top-langs/?username=jiriks74&hide=html&layout=compact&theme=tokyonight)
 
 ## 💻 Projects
 
@@ -36,17 +19,16 @@
 - 🔀 zsh-z for quick jumps around the filesystem
 - 🚪 sshc for quick and easy ssh server connections
 
-👉 [Astronvim Config](https://github.com/jiriks74/astronvim_config)
+👉 [NeoVim config](https://gitea.stefka.eu/jiriks74/nix.nvim)
 - Config for Neovim: VSCode-like functionality in the terminal, no RAM or CPU overhead!
-- 🌟 Based on [AstroNvim](https://astronvim.github.io)
-- 🔌 Plugins for LaTeX, Markdown preview, PlantUML, colorful comments, debugger, PlatformIO, autosave, and more.
-- 💻 Works anywhere you can install Neovim and Lua and works great over SSH!
-- 🚀 Starts quickly in just about 25ms!
-
+- 🌟 Based on [kickstart-nix.nvim](https://github.com/nix-community/kickstart-nix.nvim)
+- 🔌 Plugins for C, Lua, Nix, Markdown preview, PlantUML, colorful comments, debugger, and more.
+- 💻 Works anywhere you can install Nix and works great over SSH!
+- 🚀 Starts quickly in under 200ms!
 
 ## 📫 Contact Me
 
-- Email: [jiri.stefka@gmail.com](mailto:jiri.stefka@gmail.com)
+- Email: [jiri.stefka.js@gmail.com](mailto:jiri.stefka.js@gmail.com)
 - Mastodon: [@jiristefka@mastodon.social](https://mastodon.social/@jiristefka)
 
 ## ☕️ Support Me
