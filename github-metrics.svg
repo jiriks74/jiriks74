@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="842" class="large">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="865" class="large">
     <defs>
         <style/>
     </defs>
@@ -307,6 +307,51 @@
                             <section class="activity">
                                 <div class="field">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Commented on
+                                        <span class="issue">#8 Drop the NixOS module as it's not needed anymore</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by jiriks74 in <span class="repo">lelgenio/dzgui-nix</span></div>
+                                    <div class="comment">
+                                        <i>Duplicate work 😅</i>
+                                        Yeah, I've figured. I've finished my work as it's already been almost done at that point and I've seen that we had different approaches.
+I've gone more the
+                                        <code>package</code>
+                                        route while you, as far as I understand it, packaged only the script itself (
+                                        <code>dzgui.sh</code>
+                                        ) and let it manage everything in
+                                        <code>~/.local/share/dzgui</code>
+                                        .
+My approach was modifying parts of the project so that I could package everything so there wouldn't be any issues with version mismatch,
+                                        <code>dzgui.sh</code>
+                                        creating things it shouldn't (it creates a file at
+                                        <code>~/.local/applications/DZGUI.desktop</code>
+                                        which overwrites the system one needed to run the package and that causes
+                                        <code>dzgui</code>
+                                        not launching from the desktop), etc.
+I've also packaged both
+                                        <code>stable</code>
+                                        and
+                                        <code>testing</code>
+                                        and I overwrite the branches based on the package used, so it doesn't load the branch used from the config file (strange to save it there IMHO but whatever). I've also remove branch switching option from the UI so that users won't have a useless option in there.
+I've also set up some weird things (compared to normal packaging) like getting the package source from flake inputs (easier updates), etc.
+Also I've tried to do everything in a way that allows users to
+                                        <code>nix run "github:jiriks74/dzgui.flake"</code>
+                                        so they won't need to bother with setting up a custom package in their config if they want to play right away (eg. when I wanted to play and figured out that there's no working launcher on NixOS and I had to set this up XD - didn't know about this at that time).
+
+Feel free to go through my code but I warned you so I'm not responsible for any seeing horrifying nix practices related heart attacks 😂.
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
                                     </svg>
                                     <div class="content">
@@ -397,38 +442,12 @@ workflow.</div>
                                 </div>
                             </section>
                         </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">jiriks74/dzgui</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">testing</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#c895268</div>
-                                        <div class="message">fix(checks): Check `vm.max_map_count` using `cat`
-
-This solves multiple issues:
-- We don't need `sudo` to check the value anymore
-- Some systems may not have `sysctl` available
-  - IDK about desktops, but my Debian server doesn't have this command
-  (for whatever reason)</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 9 Dec 2024, 21:05:32 (timezone Europe/Prague) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 9 Dec 2024, 22:04:50 (timezone Europe/Prague) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
