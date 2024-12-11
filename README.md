@@ -7,24 +7,37 @@
 
 ## 💻 Projects
 
-👉 [msman.sh](https://github.com/jiriks74/msman.sh)
-- A bash script for managing your Minecraft server with ease!
-- 🧠 Set the server memory, pick your Minecraft version and server type (Fabric or Paper), and even select a specific server build. 
+👉 [zsh](https://gitea.stefka.eu/jiriks74/zsh.nix)
 
-👉 [zsh](https://github.com/jiriks74/zsh)
 - Take your shell game to the next level!
+- 🚀 Fast startup in under 150ms
 - 🎨 Powerlevel10k themes for a sleek look
-- 🚀 Fast git status display in prompt
+- 🗒️ Fish like history search
 - 📂 dirhistory to quickly navigate through previously accessed directories.
 - 🔀 zsh-z for quick jumps around the filesystem
 - 🚪 sshc for quick and easy ssh server connections
 
-👉 [NeoVim config](https://gitea.stefka.eu/jiriks74/nix.nvim)
+👉 [NeoVim](https://gitea.stefka.eu/jiriks74/nix.nvim)
+
 - Config for Neovim: VSCode-like functionality in the terminal, no RAM or CPU overhead!
 - 🌟 Based on [kickstart-nix.nvim](https://github.com/nix-community/kickstart-nix.nvim)
 - 🔌 Plugins for C, Lua, Nix, Markdown preview, PlantUML, colorful comments, debugger, and more.
 - 💻 Works anywhere you can install Nix and works great over SSH!
 - 🚀 Starts quickly in under 200ms!
+
+👉 [msman.sh](https://github.com/jiriks74/msman.sh)
+
+- A bash script for managing your Minecraft server with ease!
+- 🧠 Set the server memory, pick your Minecraft version and server type (Fabric or Paper), and even select a specific server build. 
+
+👉 [ccTune](https://github.com/jiriks74/ccTune)
+
+- Easily play your music in [ComputerCraft](https://tweaked.cc/)!
+- 🎵 **Playlist Generator**: Easily create playlists tailored to your musical taste!
+- ☁️ **Online Playback**: Say goodbye to file size limits! Stream your music directly from the cloud!
+- 🔌 **Simple Installation**: Get up and running in no time!
+- 🛠️ **Modular Design**: Add support for more file hosts effortlessly!
+- 📂 **Custom Playlist Format**: Enjoy the simplicity of the `.cctpl` format for your playlists!
 
 ## 📫 Contact Me
 
