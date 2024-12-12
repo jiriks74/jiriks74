@@ -2,12 +2,12 @@
 
 # Hi there, I'm Jiří Štefka 👋
 
-## :gear: Checkout my [Gitea instance](https://gitea.stefka.eu/jiriks74) where I host my personal projects
+## :gear: Checkout my [Forgejo instance](https://forgejo.stefka.eu/jiriks74) where I host my personal projects
 ## 🌐 Check out my website (and blog): [stefka.eu](https://stefka.eu)
 
 ## 💻 Projects
 
-👉 [zsh](https://gitea.stefka.eu/jiriks74/zsh.nix)
+👉 [zsh](https://forgejo.stefka.eu/jiriks74/zsh.nix)
 
 - Take your shell game to the next level!
 - 🚀 Fast startup in under 150ms
@@ -17,7 +17,7 @@
 - 🔀 zsh-z for quick jumps around the filesystem
 - 🚪 sshc for quick and easy ssh server connections
 
-👉 [NeoVim](https://gitea.stefka.eu/jiriks74/nix.nvim)
+👉 [NeoVim](https://forgejo.stefka.eu/jiriks74/nix.nvim)
 
 - Config for Neovim: VSCode-like functionality in the terminal, no RAM or CPU overhead!
 - 🌟 Based on [kickstart-nix.nvim](https://github.com/nix-community/kickstart-nix.nvim)
@@ -25,7 +25,7 @@
 - 💻 Works anywhere you can install Nix and works great over SSH!
 - 🚀 Starts quickly in under 200ms!
 
-👉 [msman.sh](https://github.com/jiriks74/msman.sh)
+👉 [msman.sh](https://forgejo.stefka.eu/jiriks74/msman.sh)
 
 - A bash script for managing your Minecraft server with ease!
 - 🧠 Set the server memory, pick your Minecraft version and server type (Fabric or Paper), and even select a specific server build. 
